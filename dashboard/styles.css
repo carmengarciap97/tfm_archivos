@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    color: #5b94c1;
+    text-align: left;
+    padding: 10px;
+}
+
+.nav {
+    background-color: #5b94c1;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    padding: 6px 10px;
+}
+
+.menu-item {
+    padding: inherit;
+    margin-left: 3px;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.menu-item-active {
+    background-color: #5d788d;
+    border-radius: 10px;
+    padding: inherit;
+    margin-left: 3px;
+}
+
+.menu-item:hover {
+    background-color: #5d788d;
+    border-radius: 10px;
+}
+
+.form-section {
+    margin-top: 5px;
+    width: fit-content;
+    position: absolute;
+}
+
+.date-form {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.form-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.date-input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.submit-button {
+    background-color: #5b94c1;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.submit-button:hover {
+    background-color: #1976D2;
+}
+
+.selected-date-section{
+   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px; 
+
+}
+
+.selected-date-box{
+    padding: 10px;
+    width: fit-content;
+    margin-top: 80px;
+
+}
+
+.radar{
+   width: 600px;
+   height: 600px;
+   margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; 
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #33546f; 
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2; 
+}
+
+.alerts-box{
+    margin: 80px 12.5%;
+    width: 75%;
+}
