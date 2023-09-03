@@ -1,10 +1,12 @@
 import multiprocessing
 import subprocess
 
+#Ejecuta el script para generar las gráficas de referencia
 def run_script1():
     script1_path = "./entropy_base.py"
     subprocess.run(["python", script1_path])
 
+#Ejecuta el script para generar las gráficas a observar
 def run_script2():
     script2_path = "./entropy.py"
     subprocess.run(["python", script2_path])
